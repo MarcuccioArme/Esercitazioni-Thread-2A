@@ -14,3 +14,10 @@ Al termine della sleep, stampa un messaggio di avvenuta conclusione.
 
 ### NOTA: 
 per generare numeri casuali, usare la classe java.util.Random e il metodo "nextInt(int)".
+
+## Esercizio 2:
+In una sala cinematografica la vendita dei biglietti viene effettuata tramite più casse.
+<br> Il numero dei posti disponibili è memorizzato nella variabile “posti”, inizializzata al valore 200.
+<br> Ogni volta che una cassa vende un biglietto, la variabile posti deve essere decrementata.
+
+Progettare un algoritmo in grado di gestire le diverse casse, che accedono in modo concorrente alla variabile “posti”.
